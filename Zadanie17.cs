@@ -27,7 +27,7 @@ class Program
                 }
             }
         }
-        Console.WriteLine($"Количество пар с произведением, делющимся на 10: {count}");
-        Console.WriteLine($"Максимальная сумма элементов в таких парах: {maxSum}");
+        Console.WriteLine($"The number of pairs with a product divisible by 10: {count}");
+        Console.WriteLine($"The maximum sum of elements in such pairs: {maxSum}");
     }
 }

@@ -41,7 +41,7 @@ class Program
                 maxSum[row, col] = Math.Max(maxSum[row - 1, col], maxSum[row, col - 1]) + arr[row, col];
             }
         }
-        Console.WriteLine("Минимальная сумма монет: " + minSum[N - 1, N - 1]);
-        Console.WriteLine("Максимальная сумма монет: " + maxSum[N - 1, N - 1]);
+        Console.WriteLine("Minimum amount of coins: " + minSum[N - 1, N - 1]);
+        Console.WriteLine("Maximum amount of coins: " + maxSum[N - 1, N - 1]);
     }
 }

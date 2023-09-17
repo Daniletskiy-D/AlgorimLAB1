@@ -19,9 +19,9 @@ class Program
 
     static void Main()
     {
-        Console.WriteLine("Введите n");
+        Console.WriteLine("Enter n");
         int n = Convert.ToInt32(Console.ReadLine());
         int result = F(n);
-        Console.WriteLine($"Значение функции F({n}) = {result}");
+        Console.WriteLine($"F({n}) = {result}");
     }
 }
